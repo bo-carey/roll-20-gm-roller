@@ -1,0 +1,9 @@
+# Dependency directories
+/node_modules
+
+# Compiled output
+/dist
+
+# Miscellaneous
+.DS_Store
+Thumbs.db

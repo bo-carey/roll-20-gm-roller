@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "version": "1.0",
+  "name": "Roll20 Easy GM Rolls",
+  "description": "Easily update GM roll visibility.",
+  "icons": {
+    "128": "images/icons/icon128.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://app.roll20.net/*"],
+      "js": ["content.ts"],
+      "run_at": "document_end",
+      "world": "MAIN"
+    }
+  ],
+  "permissions": ["storage"]
+}
